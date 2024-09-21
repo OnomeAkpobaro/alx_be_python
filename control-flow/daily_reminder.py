@@ -33,4 +33,4 @@ else:
     exit()          #Exit the program if an invalid response is entered
 
     #Print the final customized reminder
-print(f"\nReminder: {reminder}")
+print(f"Reminder: {reminder}")
