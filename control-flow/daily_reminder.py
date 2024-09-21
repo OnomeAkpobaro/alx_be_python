@@ -24,7 +24,7 @@ match priority:
 
 #Check if the task is time-bound using if statement
 if time_bound == "yes":
-    reminder += "that requires immediate attention today!"
+    reminder += " that requires immediate attention today!"
 elif time_bound == "no":
     reminder += ". Consider completing it when you have free time."
 
