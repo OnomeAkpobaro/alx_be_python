@@ -9,7 +9,7 @@ row = 0
 
 #Use while loop to iterate through each row
 while row < size:
-    #Use for loop to print asterisks for each column in the row
+    #Use a for loop to print asterisks for each column in the row
     for col in range(size):
         print("*", end="")
 
@@ -17,5 +17,4 @@ while row < size:
     print()
 
     #Increase the row counter
-    row += 1
-    
+    row = 1
