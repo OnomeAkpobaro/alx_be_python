@@ -1,14 +1,14 @@
 #Define global variables
 FAHRENHEIT_TO_CELSIUS_FACTOR = 5/9
 CELSIUS_TO_FAHRENHEIT_FACTOR = 9/5
-FAHRENHEIT_OFFSET = 32      #Offset for Fahrenheit to Celsius conversion
+
 
 def convert_to_celsius(fahrenheit):
     """
     Converts Fahrenheit to Celsius using the global FAHRENHEIT_TO_CELSIUS_FACTOR
     """
     global FAHRENHEIT_TO_CELSIUS_FACTOR
-    return (fahrenheit - FAHRENHEIT_OFFSET) * FAHRENHEIT_TO_CELSIUS_FACTOR
+    return (fahrenheit - 32) * FAHRENHEIT_TO_CELSIUS_FACTOR
 
 
 def convert_to_fahreheit(celsius):
@@ -16,7 +16,7 @@ def convert_to_fahreheit(celsius):
     Converts Celsius to Fahrenheit using the global CELSIUS_TO_FAHRENHEIIT_FACTOR
     """
     global CELSIUS_TO_FAHRENHEIT_FACTOR
-    return (celsius * CELSIUS_TO_FAHRENHEIT_FACTOR) + FAHRENHEIT_OFFSET
+    return (celsius * CELSIUS_TO_FAHRENHEIT_FACTOR) + 32
 
 def is_valid_temperature(temp):
     """
