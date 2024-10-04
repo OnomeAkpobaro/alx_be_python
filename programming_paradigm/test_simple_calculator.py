@@ -24,7 +24,7 @@ class TestSimpleCalculator(unittest.TestCase):
         self.assertEqual(self.calc.subtract(2.3, 2.3), 0)          #Subtracting floats
 
 
-    def test_multiply(self):
+    def test_multiplication(self):
         """Test the multiply method."""
         self.assertEqual(self.calc.multiply(2,3), 6)               #Standard case
         self.assertEqual(self.calc.multiply(-1, 1), -1)            #Multiplying -ve and +ve
